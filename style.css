@@ -1,6 +1,11 @@
 /* Global */
-body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-header, nav, main, footer { padding: 1rem; }
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #060077;}
+header, nav, main, footer { padding: 1rem; color: rgb(255, 255, 255);}
+img {max-width: 90%; margin: 0px auto; filter: opacity(50%); }
+nav ul { list-style: none;}
+nav li {font-size: 20px; padding: 0px 6px; margin: 5px auto;}
+nav li:hover{ transform: translate(6px, 6px); color: rgb(154, 151, 151);}
+nav li:active{ transform: translate(6px, 6px); color: rgb(154, 151, 151);}
 
 /* Medium screens */
 @media only screen and (min-width: 600px) {
